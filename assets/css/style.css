@@ -1,0 +1,76 @@
+.spacer {
+    padding-top: 50px;
+}
+
+.shadowed-box {
+    box-shadow: inset 0 0 10px;
+    background-color: #454BFF;
+    padding: 15px;
+
+}
+
+.user-form {
+    padding: 10px;
+}
+
+.orange {
+    background-color: #e98208;
+}
+
+.orange-text {
+    color: #e98208;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.user-form label {
+    color: #e98208;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+.user-form form{
+    margin: auto;
+}
+
+.user-form input, button {
+    padding: 5px 12px;
+    margin: 0 10px 0 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-text-primary);
+    vertical-align: middle;
+    background-color: #0d1117;
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    border: 1px solid #21262d;
+    border-radius: 6px !important;
+    outline: none;
+    box-shadow: var(--color-shadow-inset);
+    color: #e98208;
+}
+
+.user-form input:focus, button:focus {
+    border-color: #388bfd;
+}
+
+.user-form input {
+    text-indent: 10px;
+}
+
+#compliment {
+    animation: flash 1.5s linear infinite;
+}
+
+.divider {
+    color: #388bfd;
+    height: 16px;
+    margin-bottom: 40px;
+}
+
+@keyframes flash {
+    50% {
+        opacity: 0;
+    }
+}
